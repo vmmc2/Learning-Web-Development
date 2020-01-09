@@ -1,0 +1,6 @@
+Imagine uma caixa de correio (porta) que monitora cartas recebidas (requisição). Isso é feito por um servidor web.
+O servidor web lê a carta e então envia a resposta com uma página web. 
+Mas quando quer enviar alguma coisa, você precisa ter um conteúdo. O Django vai te ajudar a criar esse conteúdo.
+
+Quando uma requisição chega a um servidor web, ela é passada para o Django, que tenta entender o que está sendo
+requisitado de fato.
