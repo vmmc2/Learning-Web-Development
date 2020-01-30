@@ -1,0 +1,4 @@
+Almost every web application is divided in three different parts:
+  1 - HTML: Is like the content of the web application: What to display?
+  2 - CSS: Is like the style. How to display?
+  3 - PROGRAMMING LANGUAGE: JAVASCRIPT, DART, KOTLIN, ETC...: How does the application acts?
