@@ -1,0 +1,25 @@
+/* LESSON ABOUT CHILDREN SELECTORS */
+
+/*
+
+<body>
+    <div> --- This is a children from body
+        <h1> Text Example </h1>  --- This is a children from div. But it isn't a child from body
+    </div>
+
+    <h1> Text </h1> --- This is a children from body
+
+</body>
+
+*/
+
+/* How to target a child selector ?*/
+
+#main-content > p{
+    color: blueviolet;
+}
+
+p{
+    color: deeppink;
+}
+
