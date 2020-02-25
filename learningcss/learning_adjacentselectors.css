@@ -1,0 +1,35 @@
+/* LESSON ABOUT ADJACENT SELECTORS */
+
+/*
+Suppose that now, we have a series of articles(<h2>)
+And each of these articles are followed by a series
+of (<p>). But we just want to stylize the first (<p>)
+of each article. How do we do it? We must use the
+concept of adjacent selectors.
+*/
+
+
+/*
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="syntax2.css">
+    </head>
+    <body>
+        <div id="all-articles">
+            <h2> Article #1 </h2>
+            <p> Published by Vivi</p>
+            <p> Dale carai</p>
+
+            <h2> Article #2 </h2>
+            <p> Published by Vivi</p>
+            <p> Dale carai</p>
+        </div>
+    </body>
+</html>
+*/
+
+#all-articles h2 + p{
+    color: green;
+}
