@@ -1,0 +1,31 @@
+/*
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="syntax2.css">
+    </head>
+    <body>
+        <span class="emperor"> Iae fiao1 </span>
+        <span class="ruler"> Iae fiao2 </span>
+        <span class="kaiser"> Iae fiao3 </span>
+        <span> Iae fiao4 </span>
+    </body>
+</html>
+
+*/
+
+/*
+Attribute selectors.
+Suponha agora que queremos estilizar todas as tags
+do tipo "span" que estao presentes em um documento
+do tipo ".html". Entretanto, vamos supor que eu quero
+estilizar apenas as tags de "span" que apresentam uma
+class associada. Como fazer isso?????
+*/
+
+/*Resposta: Assim!!*/
+span[class]{
+    color: red;
+}
