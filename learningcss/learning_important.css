@@ -1,0 +1,13 @@
+/* TARGETING ELEMENTS: TAGS */
+
+p{
+    /*
+    A keyword "important" faz com que n seja possivel dar um overwrite em 
+    um elemento especifico. 
+    */
+    color: red !important;
+}
+
+#main-content p{
+    color: green;
+}
