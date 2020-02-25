@@ -33,3 +33,11 @@ span[class]{
 div[id]{
     background: grey;   
 }
+
+a[title = "Search engine"]{
+    color: purple;
+}
+
+a[title]{
+    color: yellow;
+}
