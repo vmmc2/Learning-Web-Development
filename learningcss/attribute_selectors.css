@@ -29,3 +29,7 @@ class associada. Como fazer isso?????
 span[class]{
     color: red;
 }
+
+div[id]{
+    background: grey;   
+}
