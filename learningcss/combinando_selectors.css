@@ -1,0 +1,15 @@
+/* 
+Combinando Selectors: Como combinar selectors que envolvam tags <exemplo>
+e classes? 
+Exemplo: Combinando uma tag do tipo <article> com uma classe
+*/
+
+/* Nesse exemplo, temos uma tag <article></article> e uma classe
+com o nome de "featured-content" */
+article.featured-content{
+    background: red;
+}
+
+div.featured-content{
+    background-color: blueviolet;
+}
