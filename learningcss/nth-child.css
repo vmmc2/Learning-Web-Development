@@ -1,0 +1,26 @@
+/* targetting the N-th child */
+
+/*
+Dado um conjunto de tags do tipo <li> em um documento html, eu quero deixar
+em bold as childs do tipo <li> numero 1 e numero 7.
+A indexacao em CSS vai de 1 ate N.
+*/
+li:nth-child(1), li:nth-child(7){
+    font-weight: bold;
+}
+
+/* To afetando todos as childs de tag <li> de numeracao par. */
+li:nth-child(even){
+    color: grey;
+}
+
+/* To afetando todos as childs de tag <li> de numeracao impar. */
+li:nth-child(odd){
+    background-color: brown;
+}
+
+/*Da pra usar umas formulas tbm. Que comecam a partir de n = 0.*/
+/*Da pra usar formulas extremamente complexas...*/
+li:nth-child(2n + 1){
+    color: green;
+}
