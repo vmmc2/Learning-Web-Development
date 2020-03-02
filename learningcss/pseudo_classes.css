@@ -20,10 +20,24 @@ Pseudo Class Groups
 
 */
 
+/*
+EXAMPLE:
+selector:keyword{ declaration }
+
+*/
+
 
 /* targetting all the <a></a> elements*/
 a:hover{
     color: red;
     /*com isso quer dizer que quando eu passar o mouse em cima
     do link, ele vai ficar na cor vermelha.*/
+}
+
+a:active{
+    color: rgb(0, 255, 34);
+}
+
+a:visited{
+    color: yellow:
 }
