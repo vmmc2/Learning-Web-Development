@@ -1,0 +1,29 @@
+/*
+Pseudo-Classes
+
+- Special keywords that go after selectors.
+- They can be used to target:
+    - Special behavioural states
+    - Advanced structural elements
+
+Pseudo Class Groups
+
+1) Dynamic:
+    - Based on behaviour.
+    - Allow us to style an element in relation to user actions, such as:
+
+2) Structural:
+    - Advance structural.
+    - Allow us to style elements based on advanced structural
+    techniques not possible from ordinary CSS selectors.
+
+
+*/
+
+
+/* targetting all the <a></a> elements*/
+a:hover{
+    color: red;
+    /*com isso quer dizer que quando eu passar o mouse em cima
+    do link, ele vai ficar na cor vermelha.*/
+}
