@@ -1,0 +1,15 @@
+/* first and last child selector */
+
+/*
+Oq eu to fazendo eh procurar a div <article>, em seguida eu procuro todos
+os elementos <p> e o primeiro eu altero a fonte e a cor.
+E o ultimo eu mudo só a cor para vermelho.
+*/
+article p:first-child{
+    font-weight: bold;
+    color: blue;
+}
+
+article p:last-child{
+    color: red;
+}
