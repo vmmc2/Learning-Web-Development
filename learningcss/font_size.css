@@ -1,0 +1,18 @@
+/* Como lidar/alterar o tamanho das fontes em CSS */
+
+article{
+  font-size: 16px; /* Essa é uma atribuicao de tamanho de fonte absoluta. */
+}
+
+/* 
+Ambos os exemplos abaixo se tratam de atribuições de tamanho de fonte relativa. Nesse caso, o tamanho atribuido tanto a <p></p> como a
+<h2></h2> é relativo ao tamanho de article. Nesse contexto, o tamanho de p é 50% do tamanho atribuido a article.
+Da mesma forma, o tamanho de fonte atribuido a <h2></h2> é de 3x o tamanho presente em article 
+*/
+article p{
+  font-size: 50%;
+}
+
+article h2{
+  font-size: 3em;
+}
