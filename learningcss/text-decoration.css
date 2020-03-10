@@ -1,0 +1,9 @@
+article{
+  text-decoration: overline;
+}
+
+a{
+  text-decoration: none; /* se deixar desse jeito, é o mesmo que não estilizar nada. */
+  text-decoration: underline, line-through; /* line-through serve para riscar o texto*/
+  text-decoration: inherit;   /*Nesse caso, a keyword inherit significa que todos os "a" vão herdar o text-decoration de suas classes pai. */
+}
